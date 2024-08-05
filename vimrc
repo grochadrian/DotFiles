@@ -1,4 +1,14 @@
-" Disable compatibility with vi which can cause unexpected issues.
+" Maximum of 80 characters per line
+set textwidth=80
+
+" 1 tab = 4 spaces (visually)
+set tabstop=4
+
+" for when you use << and >> in Vim
+set shiftwidth=4
+
+" on newline, keep current indentation
+set autoindent
 
 " Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
