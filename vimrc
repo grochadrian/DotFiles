@@ -8,7 +8,7 @@ set tabstop=4
 set shiftwidth=4
 
 " on newline, keep current indentation
-set autoindent
+" set autoindent
 
 " Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
@@ -108,3 +108,4 @@ augroup END
 " }}}
 
 
+au FileType simpl set autoindent expandtab softtabstop=4 shiftwidth=4 tabstop=4 textwidth=80
